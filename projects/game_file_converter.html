@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mohamed Hamed</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="main.js" defer></script>
+    <link rel="icon" href='./assets/images/website-icon.png'>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li onclick="javascript:location.href='../index.html'"    > Home     </li>
+      <li onclick="javascript:location.href='../projects.html'" > Projects </li>
+      <li onclick="javascript:location.href='../contact.html'"  > Contact  </li>
+      <li onclick="javascript:location.href='../resume.html'"   > Résumé   </li>
+    </ul>
+  </nav>
+
+  <h1> Game File Converter </h1>
+
+<hr>
+
+  <main>
+    <h2>Summary</h2>
+    <br>
+    <hr class='projects-main'>
+    <p>
+      The Goal os this project is to ...
+    </p>
+<br><br>
+    <h2> Section I : Animation File Formats </h2>
+    <br>
+    <hr class='projects-main'>
+    <p>
+      In order to create a simple animation format that is easy to both understand and load(think Wavefront but for animations), we must understand what
+      kind of data we are handling, lets examine the Collada format, since this is the most commonly used format. This file
+      format allows for the storage of meshes, textures, bones, keyframes, constraints, and much more. Our format will not attempt to match every
+      feature of Collada, we want simplicity and ease of use. Our format should be able to store a mesh, skeleton, keyframes, and optionally
+      textures.
+      <br><br>
+      First, mesh & texture data. The same formatted data from our wavefront loader can be used. The file header
+      does need to be updated to reflect the extra information we store. This is pretty straight forward, all we have to do is add joint count and [?].
+      <br><br>
+      Collada is an XML format for storing mesh and animation data in plain text. Our format will have both text and binary formats. We will use the
+      example of the model files once again.
+    </p>
+  </main>
+</body>
+</html>

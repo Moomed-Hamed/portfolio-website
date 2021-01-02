@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mohamed's Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <link rel="icon" href='./assets/images/website-icon.png'>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li onclick="javascript:location.href='./index.html'"      > Home     </li>
+      <li onclick="javascript:location.href='./projects.html'"   > Projects </li>
+      <li onclick="javascript:location.href='./contact.html'"    > Contact  </li>
+      <li onclick="javascript:location.href='./resume.html'"     > Résumé   </li>
+    </ul>
+  </nav>
+
+  <main class='projects-main'>
+    <article class='project_left'>
+      <img src='./assets/images/project_1.gif'>
+      <div class="text_left">
+        <h2> Voxel Game </h2>
+        <aside> C, C++ </aside>
+        <br>
+        <p>Put your imagination cap on because this level of originality can be difficult to process.
+           Now, imagine a game where the entire world is made of blocks, and where there is no well defined goal,
+           you just use the blocks to build whatever you want.</p>
+        <br>
+        <p class='view-project-btn' onclick="javascript:location.href='https://github.com/Moomed-Hamed/voxel-game'">VIEW PROJECT</p>
+    </div>
+    </article>
+
+    <hr>
+
+    <article class='project_right'>
+      <img src='./assets/images/project_2.gif'>
+      <div class="text_right">
+        <h2> Game File Converter </h2>
+        <aside> C, C++ </aside>
+        <br>
+        <p>Ever tried to load a mesh or animation without using a library?
+           well techinically this dosen't fix that problem but this library does not
+           have dependencies so it's the next best thing.</p>
+        <br>
+        <p class='view-project-btn' onclick="javascript:location.href='https://github.com/Moomed-Hamed/game-file-converter'">VIEW PROJECT</p>
+    </div>
+    </article>
+
+    <hr>
+
+    <article class='project_left'> <!-- Make an actual image for this section! -->
+      <img src='./assets/images/project_3.jpg'>
+      <div class="text_left">
+        <h2> Web Browser </h2>
+        <aside> C, C++, Custom Languages </aside>
+        <br>
+        <p>Imagine a world where web browsers weren't garbage and javascript
+           didn't exist. That's the ultimate goal of this project, to reimagine
+           the way we traverse the web and build a platform to make it possible.</p>
+        <br>
+        <p class='view-project-btn'>VIEW PROJECT</p>
+    </div>
+    </article>
+
+    <hr>
+
+    <article class='project_right'>
+      <img src='./assets/images/project_4.jpg'>
+      <div class="text_right">
+        <h2> This Website </h2>
+        <aside> html, css, javascript </aside>
+        <br>
+        <p>It was more html/css/javascript practice and I think having a personal website is very neat</p>
+        <br>
+        <p class='view-project-btn' onclick="javascript:location.href='./index.html'">VIEW PROJECT</p>
+    </div>
+    </article>
+  </main>
+</body>
+
+</html>

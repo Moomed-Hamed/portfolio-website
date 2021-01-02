@@ -1,0 +1,19 @@
+html {
+    background-color: black;
+}
+
+p {
+    font-size: 32px;
+    color: red;
+}
+
+.changer {
+    width: 300px;
+    height: 900px;
+}
+
+@media only screen and (max-resolution: 1280px) {
+    .changer {
+        color: aquamarine;
+    }
+}

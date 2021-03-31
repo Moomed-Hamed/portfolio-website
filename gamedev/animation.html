@@ -23,16 +23,16 @@
     <br>
     <hr class='projects-main'>
     <p>
-      We need to create a simple animation format that is easy to both understand and load(think Wavefront but for animations).
-      To understand what kind of data we need to store, lets examine the Collada format, since this is the most commonly used format. This file
+      To create a simple animation format that is easy to both understand and load(think Wavefront but for animations), we must understand what
+      kind of data we are handling, lets examine the Collada format, since this is the most commonly used format. This file
       format allows for the storage of meshes, textures, bones, keyframes, constraints, and much more. Our format will not attempt to match every
       feature of Collada, we want simplicity and ease of use. Our format should be able to store a mesh, skeleton, keyframes, and optionally
       textures.
       <br><br>
-      First, the mesh and texture data. We can use the same formatted data from the wavefront loader since it fits all of our needs. The file header
+      First, mesh and texture data. The same formatted data from our wavefront loader can be used. The file header
       does need to be updated to reflect the extra information we store. This is pretty straight forward, all we have to do is add joint count and [?].
       <br><br>
-      Collada is an XML format for storing mesh and animation data in plain text. We want our format to have both text and binary formats. We will use the
+      Collada is an XML format for storing mesh and animation data in plain text. Our format will have both text and binary formats. We will use the
       example of the model files once again.
     </p>
   </main>

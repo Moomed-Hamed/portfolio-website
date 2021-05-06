@@ -1,5 +1,5 @@
 
-document.getElementById("test").style.color = 'aquamarine';
+//document.getElementById("test").style.color = 'aquamarine';
 
 function buttonFunc() {
     document.body.style.backgroundColor = "red";

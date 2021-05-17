@@ -135,6 +135,7 @@ nav a:hover, nav li:hover {
 
 .projects-main img {
   min-width: 48vw;
+  max-width: 48vw;
 }
 
 .project_right {

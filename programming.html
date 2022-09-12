@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Mohamed Hamed</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <link rel="icon" href='./assets/images/website-icon.png'>
+</head>
+
+<nav>
+  <ul>
+    <li onclick="javascript:location.href='./index.html'"      > Home     </li>
+    <li onclick="javascript:location.href='./projects.html'"   > Projects </li>
+    <li onclick="javascript:location.href='./contact.html'"    > Contact  </li>
+    <li onclick="javascript:location.href='./resume.html'"     > Résumé   </li>
+  </ul>
+</nav>
+
+  <main class='index-summary'>
+    <br><br>
+    <h2> OpenGL </h2>
+    <br>
+    <p>
+      How to draw something on the screen
+summary
+First we need a way to talk to the computer to make it do stuff like simulate the game and draw pixels on the screen. I'm gonna use a programming language called C++ to do this. A programming language takes code written by nerds like me and converts it to machine instructions that are executed by the CPU. To use a programming language all you need is a text editor and a compiler (which is the program that converts your text into actual machine instructions).
+
+Now we can do a whole bunch of cool stuff like write & read from files, math, and ask the operating system to do stuff like give us keyboard input or open a window.
+
+OK, but how 2 draw graphics on this window?
+This is where your graphics card comes in. You can draw shapes just using your CPU, but using the graphics card will give us benefits which will become clear in a sec. Here’s how modern video games draw shapes on your screen. First we think of the screen as having this coordinate system, then we define the vertices of our shape in this coordinate system, then we draw lines between those vertices and make them into triangles (the reason we use triangles will be explained in a sec). Then we loop over each pixel of that triangle that actually made it onto the screen and figure out what color we want it to be and voila, we can now draw shapes!
+
+Ok but how do I draw 3D shapes?
+It’s actually done the same way, except we use a whole bunch of math to shrink or flatten our shapes to make them look like they’re in a 3D space. By changing the vertex data we can move, shrink, change color, or do just about anything to our models now.
+
+    </p>
+  </main>
+</html>

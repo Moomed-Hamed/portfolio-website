@@ -1,3 +1,5 @@
+/* ------ GLOBAL STYLE ------ */
+
 * {
   border:  0px;
   padding: 0px;
@@ -110,15 +112,6 @@ nav a:hover, nav li:hover {
     display: block;
     min-width: 1000px;
   }
-}
-
-/* ------ RESUME PAGE ------ */
-
-.resume-viewer {
-  width: 60vw;
-  height: 90vh;
-  margin: 1vh 20vw;
-  justify-content: center;
 }
 
 /* ------ PROJECT SUMMARIES ------ */

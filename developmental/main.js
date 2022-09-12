@@ -10,10 +10,10 @@ function buttonFunc() {
 /*
 var nav_menu = `
   <ul>
-    <li onclick="javascript:location.href='./index.html'"    > Home     </li>
-    <li onclick="javascript:location.href='./projects.html'" > Projects </li>
-    <li onclick="javascript:location.href='./contact.html'"  > Contact  </li>
-    <li onclick="javascript:location.href='./resume.html'"   > Resume   </li>
+    <li onclick="javascript:location.href='./index.html'"   > Home     </li>
+    <li onclick="javascript:location.href='./projects.html'"> Projects </li>
+    <li onclick="javascript:location.href='./courses.html'" > Courses  </li>
+    <li onclick="javascript:location.href='./extras.html'"  > Extras   </li>
   </ul>`
 
 var tag = document.createElement("nav");

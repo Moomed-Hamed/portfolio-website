@@ -1,4 +1,4 @@
-/* ------ GLOBAL STYLE ------ */
+
 
 * {
   border:  0px;
@@ -18,8 +18,9 @@ html {
 /* ------ NAVIGATION BAR ------ */
 
 nav {
+  padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 1.35rem;
+  text-align: center;
 }
 
 nav a {
@@ -47,32 +48,23 @@ nav a:hover, nav li:hover {
   color: #03dac6;
 }
 
+.home-page-divider { /* not just used on home page */
+  background-color: grey;
+  margin: 40px;
+  height: 2px;
+}
+
 /* ------ HOME PAGE ------ */
 
-.index-summary {
-  display: block;
-  justify-content: center;
-  text-align: center;
-}
-
-.index-summary img {
-  width: 300px;
-  max-height: auto;
-  min-width: 300px;
-  padding-top: 3vh;
-  justify-content: center;
-}
-
-.home-page-divider {
-  background-color: grey;
-  margin: 60px;
-  height: 2px;
+.home-page-main {
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 
 .index-tile {
   box-sizing: border-box;
   text-align: center;
-  overflow: hidden;
 }
 
 .index-tile li {
@@ -114,6 +106,15 @@ nav a:hover, nav li:hover {
   }
 }
 
+/* ------ RESUME PAGE ------ */
+
+.resume-viewer {
+  width: 60vw;
+  height: 90vh;
+  margin: 1vh 20vw;
+  justify-content: center;
+}
+
 /* ------ PROJECT SUMMARIES ------ */
 
 .projects-main {
@@ -129,6 +130,8 @@ nav a:hover, nav li:hover {
 .projects-main img {
   min-width: 48vw;
   max-width: 48vw;
+  border: 5px;
+  border-color: gold;
 }
 
 .project_right {

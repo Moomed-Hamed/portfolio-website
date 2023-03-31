@@ -10,48 +10,73 @@
 <nav>
     <a onclick="javascript:location.href='./index.html'"   > Home     </a> /
     <a onclick="javascript:location.href='./projects.html'"> Projects </a> /
-    <a onclick="javascript:location.href='./lessons.html'" > Contact  </a> /
+    <a onclick="javascript:location.href='./contact.html'" > Contact  </a> /
     <a onclick="javascript:location.href='./extras.html'"  > Extra    </a>
 </nav>
 
-<hr class='nav-divider'>
-
-<br>
+<hr class='nav-divider'> <br>
 
 <body>
   <main class='home-page-main'>
-    <img style='padding-right:2.5%; width:250px' src='./assets/images/headshot.png'>
-    <p> hello, friend <br><br> i hope my website is a source of inspiration for you <br> </p>
+    <img style='padding-right:2%; width:250px; border-radius:5px;' src='./assets/images/headshot.png'>
+    <p> hello, friend<br>i hope my website is a source of inspiration for you<br><br>p.s. here's my resume if you're interested </p>
   </main>
 
   <hr class='home-page-divider'>
 
-  <ul class='index-tile'> <!-- This is still broken, consider switching back to secitons? -->
+<h4 style="width:90%; margin:auto">Suggested Projects</h4><br>
+
+  <ul class='project-showcase'>
+
+      <li onclick="javascript:location.href='https://github.com/Moomed-Hamed/voxel-game'">
+        <h3>🎮 voxel game</h3>
+        <br><br>
+        <p>hello world: game programming edition</p>
+      </li>
+
+      <li onclick="javascript:location.href='https://github.com/Moomed-Hamed/game-file-converter'">
+        <h3>🛠️ file converter</h3>
+        <br><br>
+        <p>tool for generating engine file formats</p>
+      </li>
+
+      <li onclick="javascript:location.href='https://github.com/Moomed-Hamed/action-game'">
+        <h3>🎮 pirate game</h3>
+        <br><br>
+        <p>OpenGL renderer + audio + fft water sim</p>
+      </li>
+
+      <li onclick="javascript:location.href='https://github.com/Moomed-Hamed/SmokeSimulation'">
+        <h3>🕹️ smoke simulation</h3>
+        <br><br>
+        <p>euclidian fluid simulation used to mimic smoke</p>
+      </li>
+
+      <li onclick="javascript:location.href='https://github.com/Moomed-Hamed/city-building-game'">
+        <h3>🎮 city building game</h3>
+        <br><br>
+        <p>just more programming practice tbh</p>
+      </li>
+
+      <li onclick="javascript:location.href='https://github.com/Moomed-Hamed/OpenGL-Ocean-Waves'">
+        <h3>🕹️ ocean simulation</h3>
+        <br><br>
+        <p>water simulation using scrolling textures</p>
+      </li>
+
       <li onclick="javascript:location.href='./projects.html'">
-        <img src='./assets/images/icon-projects.png'>
-        <h2>View Projects</h2>
-        <br>
-        <h3>Explore my greatest achievements</h3>
+        <h3>🛠️ physics engine</h3>
+        <br><br>
+        <p>my dream physics engine with no dependencies</p>
       </li>
-      <li onclick="javascript:location.href='./contact.html'">
-        <img src='./assets/images/icon-contact.png'>
-        <h2>View Courses</h2>
-        <br>
-        <h3>Learn about various topics</h3>
-      </li>
-      <li onclick="javascript:location.href='./contact.html'">
-        <img src='./assets/images/icon-projects.png'>
-        <h2>Contribute</h2>
-        <br>
-        <h3>Work on projects with us!</h3>
-      </li>
+
     </ul>
 
-    <hr class='home-page-divider'>
+    <hr class='home-page-divider' style="width:70%; margin-right:auto; margin-left:auto; margin-bottom: 20px;">
 
-    <p style='text-align: center'>
+    <p style='text-align: center; font-size: .75rem;'>
       like me, this website is perpetually under construction.
-      <br>right now, it is <b><i>extra</i></b> under construction; so don't expect anything to work!
+      <br>right now, it is <b><i>extra</i></b> under construction; some features will be missing!
       <br>thank you for your time & be well, friend!
     </p>
 </body>

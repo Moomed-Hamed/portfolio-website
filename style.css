@@ -18,6 +18,7 @@ html {
 /* ------ NAVIGATION BAR ------ */
 
 nav {
+  background-color: #0c0b0b;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
@@ -44,21 +45,35 @@ nav li {
 }
 
 nav a:hover, nav li:hover {
-  background-color: #111;
   color: #03dac6;
+  cursor: pointer;
 }
 
-.nav-divider { /* not just used on home page */
+.nav-divider {
   background-color: crimson;
   margin:auto;
   height: 2px;
-  width: 27%
+  width: 27%;
+  visibility: hidden;
 }
 
 .home-page-divider { /* not just used on home page */
   background-color: grey;
   margin: 40px;
   height: 2px;
+}
+
+::-webkit-scrollbar {
+  visibility: hidden;
+  height:5px;
+  width:5px;
+  background-color: grey;
+}
+
+::-webkit-scrollbar-thumb {
+  color: grey;
+  background-color: crimson;
+  border-radius: 15px;
 }
 
 /* ------ HOME PAGE ------ */
@@ -69,43 +84,41 @@ nav a:hover, nav li:hover {
  justify-content: center;
 }
 
-.index-tile {
-  box-sizing: border-box;
-  text-align: center;
+.project-showcase {
+  margin:auto;
+  width: 90%;
+  min-height: 100px;
+  overflow: auto;
+  white-space: nowrap;
 }
 
-.index-tile li {
+.project-showcase li {
+  width:25%;
+  white-space: normal;
   display:inline-block;
   background-color: #121212;
   border: 2px solid grey;
   padding: 20px;
-  width:25vw;
-  min-height: 300px;
-  max-height: 300px;
-  max-width:100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
 }
 
-.index-tile li:hover {
-  border: 2px solid #eac60b;;
+.project-showcase li:hover {
+  border: 2px solid #eac60b;
   background-color: #1d1d1d;
   cursor: pointer;
 }
 
-.index-tile li img {
-  width: 100px;
-  max-width: 100px;
-  margin-bottom: 10px;
+.project-showcase li img {
+  width: 40px;
 }
 
-.index-tile li h2 {
-  overflow:visible;
+.project-showcase h3 {
+  display: inline;
+  text-align: center;
 }
 
-.index-tile li p {
-  min-width: 100px;
-  max-width: 100px;
-}
-
+/* this exists so i don't forget that it's possible */
 @media only screen and (orientation: portrait) {
   .index-tile {
     display: block;

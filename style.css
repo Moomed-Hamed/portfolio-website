@@ -48,6 +48,13 @@ nav a:hover, nav li:hover {
   color: #03dac6;
 }
 
+.nav-divider { /* not just used on home page */
+  background-color: crimson;
+  margin:auto;
+  height: 2px;
+  width: 27%
+}
+
 .home-page-divider { /* not just used on home page */
   background-color: grey;
   margin: 40px;

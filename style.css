@@ -151,7 +151,7 @@ nav a:hover, nav li:hover {
   min-width: 48vw;
   max-width: 48vw;
   border: 5px;
-  border-color: gold;
+  border-radius: 10px;
 }
 
 .project_right {
@@ -182,6 +182,7 @@ nav a:hover, nav li:hover {
   cursor: pointer;
   width: 14%;
   text-align: center;
+  display: inline;
 }
 
 .view-project-btn:hover {
@@ -193,59 +194,4 @@ nav a:hover, nav li:hover {
   background-color: grey;
   margin: 15px;
   height: 4px;
-}
-
-/* ------ BLOG PORTAL ------ */
-
-.blog-portal-main {
-  box-sizing: border-box;
-  text-align: center;
-}
-
-.blog-portal-main section {
-  display: inline-block;
-  background-color: #121212;
-  border: 2px solid grey;
-  padding: 20px;
-  width:25vw;
-  min-height: 300px;
-  max-height: 300px;
-  margin: 20px;
-}
-
-.blog-portal-main section:hover {
-  border: 2px solid #eac60b;;
-  background-color: #1d1d1d;
-  cursor: pointer;
-}
-
-.blog-portal-main section img {
-  width: 100px;
-  margin-bottom: 10px;
-}
-
-/* ------ FOOD INDEX ------ */
-
-.food-index {
-  border-collapse: collapse;
-}
-
-.food-index th, .food-index tr, .food-index td {
-  border: 1px solid grey;
-}
-
-/* ------ HOURLY TRACKER ------ */
-
-.time-management {
-  border-collapse: collapse;
-  table-layout: fixed;
-}
-
-.time-management tr {
-  border: 1px solid grey;
-  text-align: center;
-}
-
-.hours {
-  width: auto;
 }
